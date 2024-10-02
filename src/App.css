@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: aqua;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #000;
+}
+
+.all-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.all-posts .post {
+  background-color: antiquewhite;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 23px;
+}
+
+.homepage {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
